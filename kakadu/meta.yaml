@@ -1,0 +1,19 @@
+package:
+  name: kakadu
+  version: 7.9.1
+
+source:
+  fn: kakadu-7.9.1.tar.gz
+  url: http://myserver.com/pkgs/kakadu-7.9.1.tar.gz
+  md5: 1234567890abcdefghijklmno
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - openjdk
+
+about:
+  home: http://astrogeology.usgs.gov
+  license: public domain
