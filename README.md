@@ -6,7 +6,12 @@ These packages include:
 * kakadu (licensed software for jpeg2000)
 * geotiff (with support for proj4 >=4.9.2 as required by gdal 2.2.0)
 
-To build kakadu you will need to create a tar.gz archive of your licensed kakadu src distribution. Then edit the meta.yaml file in the kakadu folder of this repo to reflect the kakadu distribution archive location and the md5sum of the archive.
+## Build and Install
+
+To build the kakadu package you will need to
+* create a tar.gz archive of your licensed kakadu src distribution.
+* Then edit the meta.yaml file in the kakadu folder of this repo with the archive location and the md5sum of the archive.
+
 To do this, try running:
 
 ```
@@ -15,6 +20,7 @@ md5sum kakadu-version.tar.gz
 ```
 
 To use this repository, 
+
 * you will nedd to build the packages of each subdirectory
 * you will need to create a local custom channel
 * then add this channel to specify it as the source for these packages.
